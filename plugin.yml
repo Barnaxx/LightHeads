@@ -1,0 +1,15 @@
+name: LightHeads
+version: 0.1
+author: Barnaxx
+main: fr.barnaxx.lightheads.Main
+description: A very light heads plugin for your server!
+commands:
+    head:
+        description: Spawn a custom head
+        aliases: [h, lightheads, lh, heads]
+        permission: lightheads.spawn
+        usage: /<command> <headname>
+permissions:
+    lightheads.spawn:
+        description: The permission for the /head command
+        default: op
